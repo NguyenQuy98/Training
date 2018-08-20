@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ElegantIcons';
+  src: url('ElegantIcons.eot');
+  src: url('ElegantIcons.woff2') format('woff2'),
+       url('ElegantIcons.woff') format('woff'),
+       url('ElegantIcons.ttf') format('truetype'),
+       url('ElegantIcons.svg#ElegantIcons') format('svg'),
+       url('ElegantIcons.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
