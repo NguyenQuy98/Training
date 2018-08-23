@@ -39,7 +39,7 @@
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
-							<a href="{{ route('guest.product')}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+							<a href="{{ route('guest.category',['slug' => 'Dresses'])}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
 								Dresses
 							</a>
 						</div>
@@ -51,7 +51,7 @@
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
-							<a href="{{ route('guest.product')}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+							<a href="{{ route('guest.category',['slug' => 'Sunglasses'])}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
 								Sunglasses
 							</a>
 						</div>
@@ -65,7 +65,7 @@
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
-							<a href="{{ route('guest.product')}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+							<a href="{{ route('guest.category',['slug' => 'Watches'])}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
 								Watches
 							</a>
 						</div>
@@ -77,7 +77,7 @@
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
-							<a href="{{ route('guest.product')}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+							<a href="{{ route('guest.category',['slug' => 'Footerwear'])}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
 								Footerwear
 							</a>
 						</div>
@@ -91,7 +91,7 @@
 
 						<div class="block1-wrapbtn w-size2">
 							<!-- Button -->
-							<a href="{{ route('guest.product')}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
+							<a href="{{ route('guest.category',['slug' => 'Bags'])}}" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
 								Bags
 							</a>
 						</div>

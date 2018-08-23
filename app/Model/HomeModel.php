@@ -15,7 +15,8 @@ class HomeModel extends Model
 
     public function linkProduct()
     {
-        return DB::table('products')->paginate(12);
+        $product =DB::table('products');
+        return $product->paginate(12);
          
     }
 
@@ -41,7 +42,13 @@ class HomeModel extends Model
 
     public function getBlog()
     {
-        return DB::table('blog')->orderBy('id','desc')->get();
+        $product =DB::table('blogs')->get();
+        return $product;
+    }
+    public function searchBlog()
+    {
+        $id = $_GET['id'];
+        return DB::table('blogs')->where('id',$id)->get();
     }
 
     public function whereAbout()
@@ -56,6 +63,7 @@ class HomeModel extends Model
 
     public function getCategory()
     {
-        return DB::table('categories')->where('id','<',11)->orderBy('id','desc')->get();
+        return DB::table('categories')->where('id','<',6)->orderBy('id','desc')->get();
     }
+   
 }

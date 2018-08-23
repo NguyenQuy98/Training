@@ -6,16 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    // protected $fillable = [
-    //     'name',
-    //     'main_image', 
-    //     'description',
-    //     'price',
-    //     'amount',
-    //     'is_featured',
-    //     'status',
-    //     'flag'
-    // ];
+    protected $fillable = [
+        'name',
+        'main_image', 
+        'description',
+        'price',
+        'amount',
+        'is_featured',
+        'status',
+        'flag'
+    ];
    
         
     public function images()
@@ -28,6 +28,10 @@ class Product extends Model
     }
     // protected $table = "products";
     // protected $primaryKey = "id";
-    // public $timestamps = false;   
+    public $timestamps = false;
+    public function size()
+    {
+        return $this->belongsToMany('App\Size');
+    }
 
 }

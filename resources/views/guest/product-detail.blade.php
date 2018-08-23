@@ -44,10 +44,9 @@
 						<div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
 							<select class="selection-2 form-control" name="size" style="border: none">
 								<option>Choose an option</option>
-								<option>Size S</option>
-								<option>Size M</option>
-								<option>Size L</option>
-								<option>Size XL</option>
+								@foreach($sizes->size as $item)
+								<option>{{$item['name']}}</option>
+								@endforeach
 							</select>
 						</div>
 					</div>

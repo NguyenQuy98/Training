@@ -168,8 +168,8 @@
   }
   
   .foot {
-    top: 195%;
-    left: -34%;
+    top: 80%;
+    left: 10%;
     position: absolute;
     background: #000;
     z-index: 1000;
@@ -212,7 +212,7 @@
   }
   .foot.rgt {
     left: auto;
-    right: -80px;
+    right: 10%;
   }
   .foot.rgt .finger, .foot.rgt .finger:after, .foot.rgt .finger:before {
     left: 5px;
@@ -256,7 +256,7 @@
   
   }
   .pad-top {
-    top: 450px;
+    top: 300px;
   }
   form.up {
     -webkit-transform: translateY(-180px);

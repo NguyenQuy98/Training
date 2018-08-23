@@ -15,6 +15,7 @@ class AddColInProductsTable extends Migration
     {
         Schema::table('products', function($table) {
             $table->integer('gender')->nullable();
+            $table->integer('coler')->nullable();
         });
     }
 
@@ -28,6 +29,7 @@ class AddColInProductsTable extends Migration
         if (Schema::hasColumn('products', 'gender')) {
             Schema::table('products', function($table) {
                 $table->dropColumn('gender');
+                $table->dropColumn('coler');
             });
         }
     }
